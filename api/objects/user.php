@@ -81,4 +81,70 @@ class User{
         }
         return false;
     }
+
+    public function update(){
+        //if password needs to be updated
+        $password_set =! empty($this->password) ? ", password = :password " : " ";
+        //if no posted password, do not update the password
+        $query = "UPDATE ".$this->table_name."
+                  SET
+                      firstname = :firstname,
+                      lastname  = :lastname,
+                      email     = :email
+                      {$password_set}
+                  WHERE id = :id";
+
+        //prepare the query
+        $stmt = $this->conn->prepare($query);
+
+        //
+        //here i need to sanitize
+        //
+
+        //bind the values from the form
+        $stmt->bindParam('firstname', $this->firstname);
+        $stmt->bindParam('lastname' , $this->lastname);
+        $stmt->bindParam('email', $this->email);
+
+        //hash the password before adding to the database
+        if(!empty($this->password)){
+            $password_hash = password_hash($this->password, PASSWORD_BCRYPT);
+            $stmt->bindParam('password', $this->password);
+        }
+        $stmt->bindParam('id', $this->id);
+        if($stmt->execute()){
+            return true;
+        }
+        /**
+        $execute_stmt = $stmt->execute([
+                        'firstname'=> $this->firstname,
+                        'lastname' => $this->lastname,
+                        'email'    => $this->email,
+                        'password' => $password_hash,
+                        'id'       => $this->id
+                       ]);
+        if($execute_stmt){
+            return true;
+        }
+         */
+
+        return false;
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
