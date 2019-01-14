@@ -2,30 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8bdca1c-3e0e-4f07-a9d5-1c53aa867782" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/api/update_user.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d0e3f0eb-619e-4fbc-8f6c-ae193a3ffb53/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d0e3f0eb-619e-4fbc-8f6c-ae193a3ffb53/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d0e3f0eb-619e-4fbc-8f6c-ae193a3ffb53/storage_v2/_src_/schema/sys.zb4BAA.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d0e3f0eb-619e-4fbc-8f6c-ae193a3ffb53/storage_v2/_src_/schema/sys.zb4BAA.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/rest-api-authentication-example.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rest-api-authentication-example.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" afterPath="$PROJECT_DIR$/.project" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/config/core.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/config/core.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/config/database.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/create_user.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/create_user.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/libs/php-jwt-master/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/api/libs/php-jwt-master/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/libs/php-jwt-master/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/libs/php-jwt-master/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/libs/php-jwt-master/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/api/libs/php-jwt-master/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/libs/php-jwt-master/src/BeforeValidException.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/libs/php-jwt-master/src/BeforeValidException.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/libs/php-jwt-master/src/ExpiredException.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/libs/php-jwt-master/src/ExpiredException.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/libs/php-jwt-master/src/JWT.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/libs/php-jwt-master/src/JWT.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/libs/php-jwt-master/src/SignatureInvalidException.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/libs/php-jwt-master/src/SignatureInvalidException.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/objects/user.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/objects/user.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/update_user.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/update_user.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,91 +39,74 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="api_db: schema" type="76f4a085:MysqlImplModel$Schema" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="api_db: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="users: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/config/database.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/login.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
-              <caret line="54" column="6" selection-start-line="54" selection-start-column="6" selection-end-line="54" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/api/update_user.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="607">
-              <caret line="55" selection-start-line="55" selection-end-line="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/libs/php-jwt-master/src/JWT.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="136" selection-start-line="136" selection-end-line="136" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/objects/user.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="115" selection-start-line="115" selection-end-line="115" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://d0e3f0eb-619e-4fbc-8f6c-ae193a3ffb53/schema/api_db/table/users">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/validate_token.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/config/core.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/api/login.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="248">
+                  <caret line="45" column="39" lean-forward="true" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/api/update_user.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="422">
+                  <caret line="58" column="33" selection-start-line="58" selection-start-column="33" selection-end-line="58" selection-end-column="33" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/api/objects/user.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="727">
+                  <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/api/validate_token.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="120">
+                  <caret line="23" column="8" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/api/validate_token.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="63">
+                  <caret line="19" column="43" lean-forward="true" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="das://d0e3f0eb-619e-4fbc-8f6c-ae193a3ffb53/schema/api_db/table/users">
+              <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+                <state>
+                  <filtering enabled="true" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -157,19 +119,18 @@
         <option value="$PROJECT_DIR$/api/config/login.php" />
         <option value="$PROJECT_DIR$/api/config/core.php" />
         <option value="$PROJECT_DIR$/api/validate_token.php" />
+        <option value="$PROJECT_DIR$/api/objects/user.php" />
         <option value="$PROJECT_DIR$/api/login.php" />
         <option value="$PROJECT_DIR$/api/update_user.php" />
-        <option value="$PROJECT_DIR$/api/objects/user.php" />
       </list>
     </option>
   </component>
-  <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpServers">
     <servers>
       <server host="mytest1.com" id="e6f27684-3b5e-4508-8734-5bdf98d8f219" name="mytest1.com" />
     </servers>
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="716" />
     <option name="y" value="25" />
     <option name="width" value="650" />
@@ -180,7 +141,31 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="rest-api-authentication-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rest-api-authentication-example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rest-api-authentication-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rest-api-authentication-example" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rest-api-authentication-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rest-api-authentication-example" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="objects" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
@@ -234,18 +219,19 @@
       <workItem from="1547298133153" duration="7098000" />
       <workItem from="1547324724708" duration="1849000" />
       <workItem from="1547372592164" duration="2932000" />
-      <workItem from="1547386576603" duration="3874000" />
+      <workItem from="1547386576603" duration="6345000" />
+      <workItem from="1547451925943" duration="1122000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28442000" />
+    <option name="totallyTimeSpent" value="32035000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.22984837" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.23383878" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -258,7 +244,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.95098037" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.22801302" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Database Console" order="12" weight="0.32954547" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -299,46 +285,6 @@
           <line>173</line>
           <option name="timeStamp" value="40" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/api/update_user.php</url>
-          <line>33</line>
-          <option name="timeStamp" value="41" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/api/update_user.php</url>
-          <line>40</line>
-          <option name="timeStamp" value="42" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/api/update_user.php</url>
-          <line>32</line>
-          <option name="timeStamp" value="43" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/api/update_user.php</url>
-          <line>30</line>
-          <option name="timeStamp" value="44" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/api/update_user.php</url>
-          <line>21</line>
-          <option name="timeStamp" value="45" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/api/update_user.php</url>
-          <line>47</line>
-          <option name="timeStamp" value="46" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/api/update_user.php</url>
-          <line>46</line>
-          <option name="timeStamp" value="47" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/api/update_user.php</url>
-          <line>48</line>
-          <option name="timeStamp" value="48" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -367,10 +313,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/login.php">
+    <entry file="file://$PROJECT_DIR$/api/config/database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="54" column="6" selection-start-line="54" selection-start-column="6" selection-end-line="54" selection-end-column="6" />
+        <state relative-caret-position="226">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
@@ -381,10 +327,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/api/libs/php-jwt-master/src/JWT.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="136" selection-start-line="136" selection-end-line="136" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/objects/user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="727">
+          <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="45" column="39" lean-forward="true" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/api/validate_token.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+        <state relative-caret-position="120">
+          <caret line="23" column="8" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -395,31 +362,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/libs/php-jwt-master/src/JWT.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="136" selection-start-line="136" selection-end-line="136" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/config/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/objects/user.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="115" selection-start-line="115" selection-end-line="115" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/update_user.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="607">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        <state relative-caret-position="422">
+          <caret line="58" column="33" selection-start-line="58" selection-start-column="33" selection-end-line="58" selection-end-column="33" />
         </state>
       </provider>
     </entry>

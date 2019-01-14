@@ -37,7 +37,7 @@ if($jwt){
         $user->lastname  = $data->lastname;
         $user->email     = $data->email;
         $user->password  = $data->password;
-        $user->id        = $data->id;
+        $user->id        = $decoded->data->id;
         if($user->update()){
             $token = [
                 "iss"  => $iss,
