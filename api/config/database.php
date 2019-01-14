@@ -5,7 +5,7 @@ class Database{
     private $host     = "localhost";
     private $db       = "api_db";
     private $username = "root";
-    private $password = "vk3897vk";
+    private $password = "";
     public  $charset  = "utf8mb4";
     public  $conn;
 
